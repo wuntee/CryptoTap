@@ -1,6 +1,8 @@
 CryptoTap
 =========
 
+___Note: This has been developed against Java 1.6, and must be used to run the application. It uses specific APIs that have changed in different releases of Java. This will only work with Java 1.6___
+
 Purpose
 -------
 When reverse engineering Java applications, it has become a huge hassle to deal with obfuscation. One major function that I typically want to understand is encryption. Java provides a standard mechanism to perform encryption. Java also has a standard debugging protocol, with an associated API. Marrying those two concepts, I have created CryptoTap. It has the ability to connect to a Java application - either by launching it directly, connecting to a remote debugger, or attaching to a process - and displaying all of the information that is used in the common Java cryptographic routines (Secret Key, Cipher Type, Initialization Vector, Cipher Text and Plain Text).
